@@ -12,7 +12,7 @@ Aplicação frontend para registrar e visualizar posts relacionados ao humor (mo
 
 ## Exibição
 
-![Página principal](magoo-books.png)
+![Página principal](moody.png)
 
 ## Recursos
 
