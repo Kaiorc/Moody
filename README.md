@@ -1,6 +1,18 @@
 # Moody
 
-Aplicação frontend simples para registrar e visualizar posts relacionados ao humor (mood journal) com autenticação e armazenamento no Firebase. O usuário pode registrar como está se sentindo (1-5), publicar um texto com esse estado e filtrar posts por período (hoje, semana, mês, todos).
+Aplicação frontend para registrar e visualizar posts relacionados ao humor (mood journal) com autenticação e armazenamento no Firebase. O usuário pode registrar como está se sentindo (1-5), publicar um texto com esse estado e filtrar posts por período (hoje, semana, mês, todos).
+
+## Tecnologias
+
+- **Vite (devDependency: "latest")**: bundler e servidor de desenvolvimento rápido usado para servir e empacotar o frontend durante o desenvolvimento.
+- **Firebase (10.1.0)**: SDK do Firebase usado para Authentication (login com Google / e-mail) e Cloud Firestore (armazenamento e sincronização em tempo real).
+- **Vanilla JavaScript (ES6+)**: lógica da aplicação, manipulação do DOM e integração com o Firebase (arquivo `index.js`).
+- **HTML5**: marcação e estrutura da interface (arquivo `index.html`).
+- **CSS3**: estilos e layout da interface (arquivo `index.css`).
+
+## Exibição
+
+![Página principal](magoo-books.png)
 
 ## Recursos
 
@@ -10,13 +22,6 @@ Aplicação frontend simples para registrar e visualizar posts relacionados ao h
 - Filtro de posts por período: Hoje, Semana, Mês, Todos.
 - Atualização em tempo real usando Firestore `onSnapshot`.
 
-## Tecnologias
-
-- **Vite (devDependency: "latest")**: bundler e servidor de desenvolvimento rápido usado para servir e empacotar o frontend durante o desenvolvimento.
-- **Firebase (10.1.0)**: SDK do Firebase usado para Authentication (login com Google / e-mail) e Cloud Firestore (armazenamento e sincronização em tempo real).
-- **Vanilla JavaScript (ES6+)**: lógica da aplicação, manipulação do DOM e integração com o Firebase (arquivo `index.js`).
-- **HTML5**: marcação e estrutura da interface (arquivo `index.html`).
-- **CSS3**: estilos e layout da interface (arquivo `index.css`).
 
 ## Estrutura do projeto
 
